@@ -1,16 +1,29 @@
-/* Created by: Mr. Coxall
+/* Created by: Tymofii
 * Created on: Sep 2020
 * This file contains the CSS for index.html
-*/body {
-  background-color: rgb(255, 165, 0);
+*/
+
+.mdl-layout__header-row {
+  justify-content: center;
+  padding: 0;
 }
 
-h1 {
-  color: hsl(147, 50%, 47%);
-  text-align: center;
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
 }
 
-p {
-  font-family: verdana;
-  font-size: 20px;
+.mdl-textfield__error {
+  color: lightgreen;
+}
+
+.page-content {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+}
+
+body {
+  background-color: cornflowerblue;
 }
